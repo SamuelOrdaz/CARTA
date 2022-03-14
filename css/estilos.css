@@ -1,0 +1,67 @@
+	.cabecera{
+		background-color:#529ABB;
+		text-align: center;
+		color: white;
+	}
+	#fondoblanco{
+		background-color:white;
+		text-align: center;
+	}
+	#part4{
+		background-color:#f2f2f2;
+		text-align: center;
+	}	
+	input{
+		 width : 35%; 
+		 color: white; 
+		 font-size: 100%;
+		 font-weight: bold;
+		 background-color: 	#3980c6; 
+		 border-color: white;
+		 font-family: arial;
+	}	
+	@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+
+.container {
+	max-width:800px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+#contact {
+	padding:25px;
+	margin:50px 0;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="subject"], #contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+	margin:0 0 5px;
+	padding:10px;
+	background-color: white;
+	color: black;
+}
+
+#contact textarea {
+	height:100px;
+	max-width:100%;
+}
+
+#contact button[type="submit"] {
+	width:103%;
+	border:none;
+	color:white;
+	background-color: #3980c6;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:20px;
+}
